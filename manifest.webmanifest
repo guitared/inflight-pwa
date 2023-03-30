@@ -1,0 +1,17 @@
+{
+  "name": "InFlight",
+  "short_name": "InFlight",
+  "description": "Entertainment during take off and landing",
+  "scope": "/inflight-pwa/",
+  "start_url": "/inflight-pwa/",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "fullscreen", 
+  "icons": [
+      {
+        "src": "/inflight-pwa/icon.png",
+        "type": "image/png",
+        "sizes": "700x700"
+      }
+  ]
+}
