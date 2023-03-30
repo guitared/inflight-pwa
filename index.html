@@ -33,7 +33,7 @@ window.addEventListener("load", () => {
 	window.addEventListener("deviceorientation", event => {
 		let a = Math.round(event.alpha)
 		document.getElementById("data-angle").textContent = a;
-		document.getElementById("compass").style.transform = `rotate(${a}deg)`;
+		/* document.getElementById("compass").style.transform = `rotate(${a}deg)`; */
 	});
 
 	navigator.geolocation.watchPosition(g => {
